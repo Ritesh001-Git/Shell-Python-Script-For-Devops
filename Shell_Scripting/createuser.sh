@@ -12,6 +12,3 @@ echo "Adding users by arguments $1 $2 $3"
 sudo useradd -m "$1"
 sudo useradd -m "$3"
 sudo useradd -m "$2"
-
-
-

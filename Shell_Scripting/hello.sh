@@ -1,6 +1,10 @@
 #!/bin/bash
 
-echo "Hello World"
-echo "This is our first shell script"
+dir="/Users/riteshswain/Downloads"
 
+printf 'dir = <%q>\n' "$dir"
 
+ls -ld "$dir"
+
+echo "Expansion test:"
+printf '<%s>\n' "$dir"/*
